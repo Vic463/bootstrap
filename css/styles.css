@@ -7214,15 +7214,37 @@ img {
 .bold {
   font-weight: 700; }
 
+.btn {
+  border-radius: 20px;
+  max-width: 200px; }
+
+header {
+  background-image: url("../images/heromob-.jpg");
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px; }
+  header i {
+    font-size: 20pt; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
 /* Her henter vi vores tablet version _tablet.scss */
 /* Her har vi styles til vores tablet version */
 /* ------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  header {
+    background-image: url("../images/herotab-.jpg"); } }
+
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
 /* ------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+  header {
+    background-image: url("../images/heroweb-.jpg"); } }
+
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
 

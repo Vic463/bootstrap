@@ -3,5 +3,6 @@
 
 $tablet: "screen and (min-width: 768px)";
 @media #{$tablet} {
+  header{background-image: url("../images/herotab-.jpg");}
 
 }

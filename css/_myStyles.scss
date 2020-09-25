@@ -41,3 +41,16 @@ img {
 	height: auto; /* Højden skal tilpasse sig */
 }
 .bold{font-weight: 700;}
+.btn{
+	border-radius: 20px;
+	max-width: 200px;
+}
+header{
+	background-image: url("../images/heromob-.jpg");
+	background-color: $secondary;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	i{font-size: 20pt;}
+}
