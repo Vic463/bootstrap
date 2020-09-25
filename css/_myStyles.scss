@@ -10,6 +10,8 @@
 
 body {
 	margin: 0; /* Ingen kanter i siden af browser */
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,3 +40,4 @@ img {
 	max-width: 100%; /* Bredde må maks fylde 100% */
 	height: auto; /* Højden skal tilpasse sig */
 }
+.bold{font-weight: 700;}
