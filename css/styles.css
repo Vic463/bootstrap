@@ -7225,8 +7225,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px; }
+  header div p {
+    display: none; }
   header i {
-    font-size: 20pt; }
+    font-size: 30pt; }
 
 .ca-icon {
   font-size: 50pt; }
@@ -7239,7 +7241,11 @@ header {
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   header {
-    background-image: url("../images/herotab-.jpg"); } }
+    background-image: url("../images/herotab-.jpg"); }
+    header nav .navbar-brand {
+      font-size: 20pt; }
+    header div p {
+      display: block; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
