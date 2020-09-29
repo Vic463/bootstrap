@@ -7214,15 +7214,26 @@ img {
 .bold {
   font-weight: 700; }
 
+.about {
+  max-width: 90%; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
 /* Her henter vi vores tablet version _tablet.scss */
 /* Her har vi styles til vores tablet version */
 /* ------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .about {
+    max-width: 540px; } }
+
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
 /* ------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+  .about {
+    max-width: 900px; } }
+
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
 
