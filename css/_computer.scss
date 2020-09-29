@@ -18,6 +18,17 @@ $computer: "screen and (min-width: 992px)";
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../images/aboutweb-.jpg");
-
+  }
+  footer{
+    div:first-child{
+      background-image: url("../images/bundweb-.jpg");
+      padding-left: 10vw !important;
+      padding-right: 10vw !important;
+      p{font-size: 25pt;}
+    }
+    #footerbund{
+      padding-left: 30vw !important;
+      padding-right: 30vw !important;
+    }
   }
 }

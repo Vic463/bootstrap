@@ -7282,6 +7282,17 @@ header {
   background-size: cover;
   background-image: url("../images/aboutmob-.jpg"); }
 
+footer div:first-child {
+  background-image: url("../images/bundmob-.jpg");
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  footer div:first-child p {
+    font-size: 20pt; }
+  footer div:first-child div:last-child {
+    font-size: 40pt; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7324,7 +7335,14 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/abouttab-.jpg"); } }
+    background-image: url("../images/abouttab-.jpg"); }
+  footer div:first-child {
+    background-image: url("../images/bundtab-.jpg"); }
+    footer div:first-child p {
+      font-size: 25pt; }
+  footer #footerbund {
+    padding-left: 20vw !important;
+    padding-right: 20vw !important; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
@@ -7343,7 +7361,16 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/aboutweb-.jpg"); } }
+    background-image: url("../images/aboutweb-.jpg"); }
+  footer div:first-child {
+    background-image: url("../images/bundweb-.jpg");
+    padding-left: 10vw !important;
+    padding-right: 10vw !important; }
+    footer div:first-child p {
+      font-size: 25pt; }
+  footer #footerbund {
+    padding-left: 30vw !important;
+    padding-right: 30vw !important; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */

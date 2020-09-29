@@ -104,7 +104,16 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("../images/aboutmob-.jpg");
-
 }
-
+footer{
+	div:first-child{
+		background-image: url("../images/bundmob-.jpg");
+		background-color: $secondary;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		p{font-size: 20pt;}
+		div:last-child{font-size: 40pt;}
+	}
+}
 
