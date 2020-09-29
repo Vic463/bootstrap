@@ -7240,8 +7240,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 340px; }
-  #slideshow div div:first-child {
-    width: 75%; }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
@@ -7258,9 +7256,7 @@ header {
       display: block; }
   #slideshow {
     background-image: url("../images/bannertab-.jpg");
-    height: 390px; }
-    #slideshow div div:first-child {
-      width: 50%; } }
+    height: 390px; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
@@ -7269,9 +7265,7 @@ header {
   header {
     background-image: url("../images/heroweb-.jpg"); }
   #slideshow {
-    background-image: url("../images/bannerweb-.jpg"); }
-    #slideshow div div:first-child {
-      width: 30%; } }
+    background-image: url("../images/bannerweb-.jpg"); } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
