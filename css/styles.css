@@ -7233,6 +7233,14 @@ header {
 .ca-icon {
   font-size: 50pt; }
 
+#slideshow {
+  background-image: url("../images/bannermob-.jpg");
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */

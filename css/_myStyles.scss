@@ -56,3 +56,11 @@ header{
 	i{font-size: 30pt;}
 }
 .ca-icon{font-size: 50pt;}
+#slideshow{
+	background-image: url("../images/bannermob-.jpg");
+	background-color: $secondary;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 340px;
+}
