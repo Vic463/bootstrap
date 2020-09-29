@@ -3,39 +3,53 @@
 
 $tablet: "screen and (min-width: 768px)";
 @media #{$tablet} {
-  header{
+  header {
     background-image: url("../images/herotab-.jpg");
-    nav .navbar-brand{font-size: 20pt;}
-    div p{display: block;}
+
+    nav .navbar-brand {
+      font-size: 20pt;
+    }
+
+    div p {
+      display: block;
+    }
   }
-  #slideshow{
+  #slideshow {
     background-image: url("../images/bannertab-.jpg");
     height: 390px;
   }
-}
+  #portfolie {
+    p {
+      font-size: 35pt;
+    }
 
-#portfolie{
-  div{
-    width: 376px;
-    height: 238px;
-  }
+    div {
+      width: 376px;
+      height: 238px;
+    }
 
-  #mob1{
-    background-image: url("../images/1tab.jpg");
-  }
-  #mob2{
-    background-image: url("../images/2tab.jpg");
-  }
-  #mob3{
-    background-image: url("../images/3tab.jpg");
-  }
-  #mob4{
-    background-image: url("../images/4tab.jpg");
-  }
-  #mob5{
-    background-image: url("../images/5tab.jpg");
-  }
-  #mob6{
-    background-image: url("../images/6tab.jpg");
+    #mob1 {
+      background-image: url("../images/1tab.jpg");
+    }
+
+    #mob2 {
+      background-image: url("../images/2tab.jpg");
+    }
+
+    #mob3 {
+      background-image: url("../images/3tab.jpg");
+    }
+
+    #mob4 {
+      background-image: url("../images/4tab.jpg");
+    }
+
+    #mob5 {
+      background-image: url("../images/5tab.jpg");
+    }
+
+    #mob6 {
+      background-image: url("../images/6tab.jpg");
+    }
   }
 }
