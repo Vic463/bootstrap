@@ -8,7 +8,10 @@ $tablet: "screen and (min-width: 768px)";
     nav .navbar-brand{font-size: 20pt;}
     div p{display: block;}
   }
-
+  #slideshow{
+    background-image: url("../images/bannertab-.jpg");
+    height: 390px;
+  }
 }
 
 #portfolie{
