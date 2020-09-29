@@ -7240,6 +7240,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 340px; }
+  #slideshow div div:first-child {
+    width: 75%; }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
@@ -7253,14 +7255,23 @@ header {
     header nav .navbar-brand {
       font-size: 20pt; }
     header div p {
-      display: block; } }
+      display: block; }
+  #slideshow {
+    background-image: url("../images/bannertab-.jpg");
+    height: 390px; }
+    #slideshow div div:first-child {
+      width: 50%; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
   header {
-    background-image: url("../images/heroweb-.jpg"); } }
+    background-image: url("../images/heroweb-.jpg"); }
+  #slideshow {
+    background-image: url("../images/bannerweb-.jpg"); }
+    #slideshow div div:first-child {
+      width: 30%; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */

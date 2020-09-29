@@ -4,4 +4,8 @@
 $computer: "screen and (min-width: 1200px)";
 @media #{$computer} {
   header{background-image: url("../images/heroweb-.jpg");}
+  #slideshow{
+    background-image: url("../images/bannerweb-.jpg");
+    div div:first-child{width: 30%;}
+  }
 }
