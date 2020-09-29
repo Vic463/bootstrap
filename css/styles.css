@@ -7270,6 +7270,9 @@ header {
 #portfolie #mob6 {
   background-image: url("../images/6mob.jpg"); }
 
+#omosheadline {
+  font-size: 30pt; }
+
 #about {
   width: 320px;
   height: 252px;
@@ -7312,8 +7315,8 @@ header {
     background-image: url("../images/5tab.jpg"); }
   #portfolie #mob6 {
     background-image: url("../images/6tab.jpg"); }
-  .about {
-    max-width: 540px; }
+  #omosheadline {
+    font-size: 35pt; }
   #about {
     width: 376px;
     height: 362px;
@@ -7326,7 +7329,7 @@ header {
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
 /* ------------------------------------------------------------- */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   header {
     background-image: url("../images/heroweb-.jpg"); }
   #slideshow {
