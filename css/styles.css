@@ -7233,6 +7233,32 @@ header {
 .ca-icon {
   font-size: 50pt; }
 
+#portfolie div {
+  width: 320px;
+  height: 310px;
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#portfolie #mob1 {
+  background-image: url("../images/1mob.jpg"); }
+
+#portfolie #mob2 {
+  background-image: url("../images/2mob.jpg"); }
+
+#portfolie #mob3 {
+  background-image: url("../images/3mob.jpg"); }
+
+#portfolie #mob4 {
+  background-image: url("../images/4mob.jpg"); }
+
+#portfolie #mob5 {
+  background-image: url("../images/5mob.jpg"); }
+
+#portfolie #mob6 {
+  background-image: url("../images/6mob.jpg"); }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7246,6 +7272,28 @@ header {
       font-size: 20pt; }
     header div p {
       display: block; } }
+
+#portfolie div {
+  width: 376px;
+  height: 238px; }
+
+#portfolie #mob1 {
+  background-image: url("../images/1tab.jpg"); }
+
+#portfolie #mob2 {
+  background-image: url("../images/2tab.jpg"); }
+
+#portfolie #mob3 {
+  background-image: url("../images/3tab.jpg"); }
+
+#portfolie #mob4 {
+  background-image: url("../images/4tab.jpg"); }
+
+#portfolie #mob5 {
+  background-image: url("../images/5tab.jpg"); }
+
+#portfolie #mob6 {
+  background-image: url("../images/6tab.jpg"); }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */

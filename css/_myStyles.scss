@@ -56,3 +56,33 @@ header{
 	i{font-size: 30pt;}
 }
 .ca-icon{font-size: 50pt;}
+
+#portfolie {
+	div {
+		width: 320px;
+		height: 310px;
+		background-color: $secondary;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#mob1{
+		background-image: url("../images/1mob.jpg");
+	}
+	#mob2{
+		background-image: url("../images/2mob.jpg");
+	}
+	#mob3{
+		background-image: url("../images/3mob.jpg");
+	}
+	#mob4{
+		background-image: url("../images/4mob.jpg");
+	}
+	#mob5{
+		background-image: url("../images/5mob.jpg");
+	}
+	#mob6{
+		background-image: url("../images/6mob.jpg");
+	}
+}
