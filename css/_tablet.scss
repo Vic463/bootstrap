@@ -7,3 +7,13 @@ $tablet: "screen and (min-width: 768px)";
     max-width: 540px;
   }
 }
+
+#about{
+  width: 376px;
+  height: 362px;
+  background-color: $secondary;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/abouttab-.jpg");
+}

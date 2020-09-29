@@ -42,6 +42,15 @@ img {
 }
 .bold{font-weight: 700;}
 
-.about{
-	max-width: 90%;
+#about{
+	width: 320px;
+	height: 252px;
+	background-color: $secondary;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/aboutmob-.jpg");
+
 }
+
+

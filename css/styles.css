@@ -7214,8 +7214,14 @@ img {
 .bold {
   font-weight: 700; }
 
-.about {
-  max-width: 90%; }
+#about {
+  width: 320px;
+  height: 252px;
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/aboutmob-.jpg"); }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
@@ -7227,12 +7233,30 @@ img {
   .about {
     max-width: 540px; } }
 
+#about {
+  width: 376px;
+  height: 362px;
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/abouttab-.jpg"); }
+
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
   .about {
     max-width: 900px; } }
+
+#about {
+  width: 560px;
+  height: 264px;
+  background-color: #6c757d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/aboutweb-.jpg"); }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */

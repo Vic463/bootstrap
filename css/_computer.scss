@@ -7,3 +7,13 @@ $computer: "screen and (min-width: 1200px)";
     max-width: 900px;
   }
 }
+#about{
+  width: 560px;
+  height: 264px;
+  background-color: $secondary;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/aboutweb-.jpg");
+
+}
